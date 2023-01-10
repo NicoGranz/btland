@@ -2,18 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Petit+Formal+Script&display=swap');
 
 body {
-    background-image: url('Public/Images/01.jpg');
+    background-image: url('Public/Images/02.png');
     background-size: cover;
+    text-align: center;
   }
   
   header img {
     width: 100px;
     height: auto;
-    filter: drop-shadow(0 0 5px #fff);
+    margin-top: 100px;
   }
   
+ .logoimg {
+  max-width: 90px ;
+  text-align: center;
+}
+
   h1, p {
     text-align: center;
+    font-family: 'Gochi Hand', cursive;
     color: #fff;
     text-shadow: 0 0 5px rgb(36, 4, 33);
   }
@@ -30,12 +37,45 @@ body {
   
   form {
     width: 50%; /* set the width of the form */
-    margin: 30px auto; /* center the form horizontally */
+    margin: 20px auto; /* center the form horizontally */
   }
 
   label {
     color: #fff;
+    font-family: sans-serif;
     text-shadow: 0 0 5px rgb(12, 1, 1);
-    font-size: 1.5em;
+    font-size: 1em;
     display: block;
+    text-align: center;
   }
+
+  input { 
+  
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    background-color:cornsilk;
+
+    border: 3px solid rgb(8, 117, 127);
+    transition: width 0.4s ease-in-out;
+  }
+
+  button   {    
+  background-color:cornsilk;
+  border: 3px solid rgb(8, 117, 127);
+  padding: 3px 10px 3px 10px;
+  font-family: 'Gochi Hand', cursive;
+  color: rgb(8, 117, 127);  
+  font-size: 1.5em;
+  transition: 0.6s;
+
+}
+
+button:hover  {    
+  background-color: rgb(8, 117, 127);
+  border: 3px solid rgb(255, 255, 255);
+  padding: 3px 10px 3px 10px;
+  font-family: 'Gochi Hand', cursive;
+  color: rgb(255, 255, 255);  
+  font-size: 1.5em;
+
+}
