@@ -30,7 +30,7 @@ body {
   
   form {
     width: 50%; /* set the width of the form */
-    margin: 20px auto; /* center the form horizontally */
+    margin: 30px auto; /* center the form horizontally */
   }
 
   label {
