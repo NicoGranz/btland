@@ -1,0 +1,41 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Petit+Formal+Script&display=swap');
+
+body {
+    background-image: url('Public/Images/01.jpg');
+    background-size: cover;
+  }
+  
+  header img {
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(0 0 5px #fff);
+  }
+  
+  h1, p {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(36, 4, 33);
+  }
+  
+  h1 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3em;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
+  
+  form {
+    width: 50%; /* set the width of the form */
+    margin: 20px auto; /* center the form horizontally */
+  }
+
+  label {
+    color: #fff;
+    text-shadow: 0 0 5px rgb(12, 1, 1);
+    font-size: 1.5em;
+    display: block;
+  }
